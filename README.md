@@ -8,8 +8,8 @@
     age:       22, 
     city:     'Fortaleza',
     homepage: 'https://levirlemos.online',
-    stack: ['HTML','CSS','Javascript','NodeJS','ReactJS','C','C++'],
-    hobby: ['tocar instrumentos','animes','series']
+    stack:    ['HTML','CSS','Javascript','NodeJS','ReactJS','C','C++'],
+    hobby:    ['tocar instrumentos','animes','series']
   });
 
   return response.status(201).json(user);
