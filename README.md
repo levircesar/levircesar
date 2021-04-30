@@ -1,9 +1,29 @@
-- 👋 Olá, sou o  @levircesar! Seja muito bem vindo(a) ao meu github :)
+### Hello , my name is Levir César
 
-<!---
-levircesar/levircesar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# **Im student of Computer Engineering**
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=levircesar&hide=contribs,prs)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=levircesar&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+```javascript
+  async user.index({
+    name:     'Levir César',
+    age:       22, 
+    city:     'Fortaleza',
+    homepage: 'https://levirlemos.online',
+    stack: ['HTML','CSS','Javascript','NodeJS','ReactJS','C','C++'],
+    hobby: ['tocar instrumentos','animes','series']
+  });
+
+  return response.status(201).json(user);
+```
+
+# Details
+
+<p align="justify">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=levircesar&show_icons=true&count_private=true&theme=dracula&hide=issues" />
+  </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=levircesar&layout=compact&theme=dracula" />
+  </a>
+</p>
+
+#
