@@ -26,4 +26,7 @@
   </a>
 </p>
 
-#
+#Dica para copiar um repositório
+```bash
+npx degit <url do repositorio> [Nome_do_projeto]
+```
