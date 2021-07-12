@@ -32,3 +32,22 @@
 ```bash
 npx degit <url do repositorio> [Nome_do_projeto]
 ```
+
+
+### gecko driver
+testar esse 
+```
+WebDriver driver;
+ProfilesIni profile = new ProfilesIni();
+FirefoxProfile testprofile = profile.getProfile("default");
+testprofile.setAcceptUntrustedCertificates(true);
+testprofile.setAssumeUntrustedCertificateIssuer(true);
+driver = new FirefoxDriver(testprofile);
+```
+e esse 
+
+```
+DesiredCapabilities capabilities = new DesiredCapabilities();
+capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+driver = new FirefoxDriver(capabilities);
+```
