@@ -35,19 +35,14 @@ npx degit <url do repositorio> [Nome_do_projeto]
 
 
 ### gecko driver
-testar esse 
+Para ignorar certificados de proteção no Selenium WebDriver Para o Firefox
 ```
-WebDriver driver;
-ProfilesIni profile = new ProfilesIni();
-FirefoxProfile testprofile = profile.getProfile("default");
-testprofile.setAcceptUntrustedCertificates(true);
-testprofile.setAssumeUntrustedCertificateIssuer(true);
-driver = new FirefoxDriver(testprofile);
-```
-e esse 
-
-```
-DesiredCapabilities capabilities = new DesiredCapabilities();
-capabilities.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
-driver = new FirefoxDriver(capabilities);
+ProfilesIni profileIni = new ProfilesIni();
+FirefoxProfile profile = profileIni.getProfile("default");
+FirefoxOptions options = new FirefoxOptions();
+options.setProfile(profile);
+DesiredCapabilities cap = new DesiredCapabilities();
+cap.setAcceptInsecureCerts(true);
+options.addCapabilities(cap);
+WebDriver driver = new FirefoxDriver(options);
 ```
