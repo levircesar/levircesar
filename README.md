@@ -9,9 +9,9 @@
     name:     'Levir César',
     age:       22, 
     city:     'Fortaleza',
-    homepage: 'https://levirlemos.online',
+    homepage: 'https://portifolio-next-omega.vercel.app/',
     stack:    ['HTML','CSS','Javascript','NodeJS','ReactJS','C','C++'],
-    hobby:    ['tocar instrumentos','animes','series']
+    hobby:    ['Videogames','animes','series','guitar']
   });
 
   return response.status(201).json(user);
@@ -21,9 +21,6 @@
 
 <p align="justify">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=levircesar&show_icons=true&count_private=true&theme=dracula&hide=issues" />
-  </a>
-    <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=levircesar&layout=compact&theme=dracula" />
   </a>
 </p>
