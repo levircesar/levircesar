@@ -7,10 +7,10 @@
 ```javascript
   async user.index({
     name:     'Levir César',
-    age:       22, 
+    age:       23, 
     city:     'Fortaleza',
     homepage: 'https://portifolio-next-omega.vercel.app/',
-    stack:    ['HTML','CSS','Javascript','NodeJS','ReactJS','C','C++'],
+    stack:    ['HTML','CSS','Javascript','NodeJS','ReactJS','Java','C++','Selenium'],
     hobby:    ['Videogames','animes','series','guitar']
   });
 
