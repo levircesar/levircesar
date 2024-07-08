@@ -1,16 +1,16 @@
 ### Hello , my name is Levir César
 
-# **Im student of Computer Engineering**
+# **Im Quality assurance Analyst**
 
 <a href="https://portifolio-next-omega.vercel.app/">Site Portifólio</a>
 
 ```javascript
   async user.index({
     name:     'Levir César',
-    age:       23, 
+    age:       25, 
     city:     'Fortaleza',
     homepage: 'https://portifolio-next-omega.vercel.app/',
-    stack:    ['HTML','CSS','Javascript','NodeJS','ReactJS','Java','C++','Selenium'],
+    stack:    ['HTML','CSS','Javascript','NodeJS','ReactJS','Java','C++','Selenium','Appium','Playwright'],
     hobby:    ['Videogames','animes','series','guitar']
   });
 
